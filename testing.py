@@ -33,7 +33,7 @@ while True:
             if True in [word in mention.text.lower() for word in words]:
                 try:
                     print("Attempting to reply...")
-                    api.media_upload(image, in_reply_to_status_id=mention.id_str)
+                    api.update_status(message.format(mention.author.screen_name), in_reply_to_status_id=mention.id_str)
                     print("Successfully replied :]")
                 except Exception as exc:
                     print(exc)
