@@ -1,4 +1,3 @@
-
 from PIL import Image
 
 inputImage = input("Insert Image Here: ")
