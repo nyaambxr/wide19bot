@@ -116,3 +116,5 @@ dmypy.json
 secrets.json
 # Output of Pillow
 output.jpg
+# vscode
+settings.json
