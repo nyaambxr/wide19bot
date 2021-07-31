@@ -114,3 +114,5 @@ dmypy.json
 .pyre/
 # Secrets
 secrets.json
+# Output of Pillow
+output.jpg
